@@ -3,9 +3,10 @@
 
 #include <Arduino.h>
 
-#define LED_B 16  // GPIO16/D0
-#define LED_G 5   // GPIO05/D1
-#define LED_R 4   // GPIO04/D2
+//Anpassungen f. Dmx2WiFi
+#define LED_B 0 //D3   // GPIO16/D0 16
+#define LED_G 4 //D2   // GPIO05/D1 5
+#define LED_R 5 //D1   // GPIO04/D2 4
 
 // #define COMMON_ANODE
 
